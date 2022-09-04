@@ -1863,6 +1863,10 @@ input, select, textarea {
 					background-color: #10BEF1;
 				}
 
+				ul.social li a.fa-wordpress {
+					background-color: #10BEF1;
+				}
+
 				ul.social li a.fa-soundcloud {
 					background-color: #FE5419;
 				}
