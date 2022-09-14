@@ -72,6 +72,8 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+
 /* Basic */
 
 	html {
@@ -2148,7 +2150,9 @@ input, select, textarea {
 		font-size: 0.9em;
 	}
 
-/* Copyright */
+/* Copyright position: absolute;*/
+
+
 
 	#copyright {
 		color: #666;
@@ -2185,7 +2189,18 @@ input, select, textarea {
 			#copyright a:hover {
 				color: #777;
 			}
-
+		
+		#copyright img {
+			width: 40px;
+			margin-top: -800px;
+			margin-left: 100px;
+			padding-left: 800;
+			left: 50%;
+			top: 150;
+			margin: 10 50 80 1em;
+			position: static;
+			color: #777;
+		}	
 /* Large */
 
 	@media screen and (max-width: 1280px) {
@@ -2454,3 +2469,21 @@ input, select, textarea {
 					}
 
 	}
+
+/* carjavi 
+#copyright img {
+		margin-top: -190px;
+		left: 50%;
+		top: 50%;
+		padding-left: 0;
+		margin-bottom: 0;
+	}
+*/
+.footer_icon .img{
+	margin-top: -100px;
+	left: 50%;
+	top: 50%;
+	padding-left: 100;
+	margin-bottom: 100;
+	position: absolute;
+}
